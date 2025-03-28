@@ -1,0 +1,28 @@
+{
+  "name": "navigator_mediadevices_api_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayush-Martin/navigator_MediaDevices_sample.git"
+  },
+  "keywords": [],
+  "author": "Ayush Martin",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ayush-Martin/navigator_MediaDevices_sample/issues"
+  },
+  "homepage": "https://github.com/Ayush-Martin/navigator_MediaDevices_sample#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
