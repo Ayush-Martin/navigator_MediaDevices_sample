@@ -3,7 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <h1>MediaDevices</h1>
+    <div class="btn_container">
+      <button id="shareVideo">Share video</button>
+      <button id="stopShareVideo">Stop Share video</button>
+      <button id="stopShareScreen">Stop Share screen</button>
+      <button id="startRecording">Start Recording</button>
+      <button id="stopRecording">Stop Recording</button>
+      <button id="playRecording">Play Recording</button>
+    </div>
+    <div class="video_container">
+      <div>
+        <h1>Video</h1>
+        <video src="" id="videoOutput" autoplay controls></video>
+      </div>
+      <div>
+        <h1>Screen</h1>
+        <video src="" id="screenShareOutput" autoplay controls></video>
+      </div>
+    </div>
+    <div class="video_container">
+      <div>
+        <h1>Video</h1>
+        <video src="" id="recordedVideoOutput" autoplay controls></video>
+      </div>
+      <div>
+        <h1>Screen</h1>
+        <video src="" id="recordedScreenOutput" autoplay controls></video>
+      </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+  </body>
 </html>
